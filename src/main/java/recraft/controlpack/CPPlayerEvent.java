@@ -55,7 +55,6 @@ public class CPPlayerEvent
 	public void onUserAttack(UserAttackEvent event)
 	{
 		int index = -1;
-		int noToolIndex = -1;
 		player = event.player;
 		
 		ItemStack stack;
